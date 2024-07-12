@@ -203,6 +203,16 @@ align-items: center;
 
 .containerAside {
     display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+.containerAside p {
+    border: 0.0004px solid black;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .aside1 article {
     display: flex;
@@ -211,4 +221,20 @@ align-items: center;
 .article1 {
     display: flex;
     align-items: last baseline;
+}
+
+.aside2 ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.as2 {
+    display: flex;
+
+}
+.aside2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
